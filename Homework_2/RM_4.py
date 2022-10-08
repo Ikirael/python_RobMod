@@ -15,9 +15,6 @@ class MedianFinder(object):
             a = round(self.lst[med],5)
         return a
             
-             
-
-
 
 x = MedianFinder()
 x.add_num(1)

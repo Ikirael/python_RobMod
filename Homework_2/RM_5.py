@@ -25,6 +25,6 @@ class MyTimer:
 
 
 print("Countdown has started...")
-with MyTimer(units="z") as t:
+with MyTimer(units="s") as t:
     time.sleep(5)
 print(t.elapsed_time())
